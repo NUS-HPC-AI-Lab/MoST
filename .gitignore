@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.onnx
+checkpoints/
+outputs/
+output/
+saved_models/
+
+# HuggingFace cache
+.cache/
+~/.cache/huggingface/
+
+# Large data files
+*.tar
+*.tar.gz
+*.zip
+*.7z
+data/
+datasets/
+
+# Audio files (except examples in asset/)
+*.wav
+*.mp3
+*.flac
+!asset/*.wav
+
+# Weights & Biases
+wandb/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+logs/
+*.log
+tensorboard/
+runs/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+
+# Accelerate/DeepSpeed
+*.deepspeed_checkpoint/
+
+# Temporary files
+*.tmp
+*.temp
+.nfs*

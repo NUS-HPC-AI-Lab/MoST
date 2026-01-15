@@ -1,0 +1,14 @@
+[
+  {
+    "dataset_name": "librispeech",
+    "input_dir": "path/to/data/librispeech_asr_instructions",
+    "output_dir": "path/to/data/scratch/librispeech_tts_instructions",
+    "file_pattern": "*.json"
+  },
+  {
+    "dataset_name": "common_voice",
+    "input_dir": "path/to/data/scratch/common_voice_asr_instructions",
+    "output_dir": "path/to/data/scratch/common_voice_tts_instructions",
+    "file_pattern": "*.json"
+  }
+] 
